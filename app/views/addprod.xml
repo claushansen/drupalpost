@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView id="postformview" class="buffer vgroup">
+			<Label id="label">Add product to the list</Label>
+		<View id="formwrapper" class="vgroup">
+		<Label id="prod_title_label" class="left small-text top-buffer">Title</Label>
+		<TextField id="prod_title" class="border-dark-thin rounded"></TextField>
+		<Label id="prod_price_label" class="left small-text top-buffer">Price</Label>
+		<TextField id="prod_price" class="border-dark-thin rounded"></TextField>
+		<Label id="prod_desc_label" class="left small-text top-buffer">Description</Label>
+		<TextArea id="prod_desc" class="border-dark-thin rounded"></TextArea>
+		<Label id="prod_imgurl_label" class="left small-text top-buffer">Image URL</Label>
+		<TextField id="prod_imgurl" class="border-dark-thin rounded"></TextField>
+		<Button id="postbtn" onClick="PostProduct">Post to Drupal</Button>
+		</View>
+		</ScrollView>
+	</Window>
+</Alloy>

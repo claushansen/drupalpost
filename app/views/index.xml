@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		
+		<ScrollView id="postformview" class="buffer vgroup">
+			<Button id="gotobtn" onClick="openFormView">Add our product</Button>
+			
+			<Label id="label" >Look at our great products</Label>
+		<Require src="ProductCollection"></Require>
+		
+		</ScrollView>
+	</Window>
+</Alloy>

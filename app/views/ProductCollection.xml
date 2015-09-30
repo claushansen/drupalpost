@@ -1,0 +1,18 @@
+<Alloy>
+	<Collection src="ProductCollection"></Collection>
+	<View class="container" class="vgroup">
+		<Label id="ProductLabel">Products</Label>
+		<TableView id="ProductTableView" dataCollection="ProductCollection">
+			<TableViewRow layout="horizontal">
+				<View id="productitemview" class="hgroup top-buffer">
+				<ImageView image="{productimage}" width="25%"></ImageView>
+				<View id="productitemdetails" width="70%" class="vgroup left-buffer">
+				<Label text="{node_title}" class="left"></Label>
+				<Label text="{body}" class="small-text left"></Label>
+				<Label text=" {productprice}" class="right bottom large-text red"></Label>
+				</View></View>
+			</TableViewRow>
+		</TableView>
+		
+	</View>
+</Alloy>
